@@ -18,8 +18,9 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
+in terminal or bash:
 * `git clone https://github.com/owowmary/my-company-dashboard.git my-company-dashboard`
-* `cd my-company-dashboard`
+* `cd my-company-dashboard` NOTE: Make sure you are in the correct folder, run `ls` and you should see ```package.json``` as one of the files.
 * `npm install`
 * `bower install`
 
@@ -28,19 +29,16 @@ You will need the following things properly installed on your computer.
 * `ember serve --prod`
 * Visit [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### External Libraries and Addons used:
 
-[Papa-Parse](http://papaparse.com/) (for converting CSV to JSON)
-[Highcharts](https://www.npmjs.com/package/ember-highcharts) (for charting results)
-[Ember truths addon](https://www.npmjs.com/package/ember-truth-helpers) package (for boolean handlebars helpers)
-[jQuery](https://jquery.com/)
-[Ember.js](http://emberjs.com/)
-[Ember-cli](http://ember-cli.com/)
-[Bootstrap](https://www.npmjs.com/package/ember-bootstrap) (for responsiveness and style)
+* [Papa-Parse](http://papaparse.com/) (for converting CSV to JSON)
+* [Highcharts](https://www.npmjs.com/package/ember-highcharts) (for charting results)
+* [Ember truths addon](https://www.npmjs.com/package/ember-truth-helpers) package (for boolean handlebars helpers)
+* [jQuery](https://jquery.com/)
+* [Ember.js](http://emberjs.com/)
+* [Ember-cli](http://ember-cli.com/)
+* [Bootstrap](https://www.npmjs.com/package/ember-bootstrap) (for responsiveness and style)
 
 ## Further Reading / Useful Links
 

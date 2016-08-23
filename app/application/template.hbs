@@ -1,0 +1,24 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed"
+      data-toggle="collapse" data-target="#menu-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{#link-to 'index' classNames="navbar-brand"}}Home{{/link-to}}
+    </div>
+
+    <div class="navbar-collapse collapse " id="menu-collapse" >
+      <ul class="nav navbar-nav" data-toggle="collapse" data-target=".navbar-collapse">
+        <li >{{#link-to 'geospatial-view'}}Geospatial View{{/link-to}}</li>
+        <li >{{#link-to 'key-metrics-view'}}Key Metrics View{{/link-to}}</li>
+        <li >{{#link-to 'data-view'}}Data View{{/link-to}}</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+{{outlet}}

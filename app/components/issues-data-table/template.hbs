@@ -11,8 +11,8 @@
 <table class='table table-striped'>
 	<thead>
 		<tr>
-			<th  {{action 'sortColumn' 'submissionDate'}}>Submission date
-				{{#if (eq sortProperty 'submissionDate')}}
+			<th  {{action 'sortColumn' 'submissionTime'}}>Submission Time
+				{{#if (eq sortProperty 'submissionTime')}}
 					<span class="glyphicon glyphicon-triangle-{{if sortAscending 'bottom' 'top' }}"></span>
 				{{/if}}
 			</th>
@@ -36,8 +36,8 @@
 					<span class="glyphicon glyphicon-triangle-{{if sortAscending 'bottom' 'top'}}"></span>
 				{{/if}}
 			</th>
-			<th {{action 'sortColumn' 'closeDate'}}>Closed date
-				{{#if (eq sortProperty 'closeDate')}}
+			<th {{action 'sortColumn' 'closeTime'}}>Closed Time
+				{{#if (eq sortProperty 'closeTime')}}
 					<span class="glyphicon glyphicon-triangle-{{if sortAscending 'bottom' 'top'}}"></span>
 				{{/if}}
 			</th>
@@ -53,12 +53,12 @@
 	{{#each sortedRows as |issue|}}
 
 		<tr>
-			<td>{{issue.submissionDate}}</td>
+			<td>{{issue.submissionTime}}</td>
 			<td>{{issue.customerName}}</td>
 			<td>{{issue.customerEmail}}</td>
 			<td>{{issue.description}}</td>
 			<td>{{issue.status}}</td>
-			<td>{{issue.closeDate}}</td>
+			<td>{{issue.closeTime}}</td>
 			<td>{{issue.employeeName}}</td>
 		</tr>
 

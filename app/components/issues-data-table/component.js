@@ -35,7 +35,7 @@ export default Ember.Component.extend({
           }
         };
       })(this));
-    }).property("theFilter", "sortProperty"),
+    }).property("theFilter", "sortProperty", "model"),
 
     actions: {
       sortColumn: function(property) {

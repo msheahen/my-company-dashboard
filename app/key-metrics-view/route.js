@@ -5,13 +5,12 @@ export default Ember.Route.extend({
 
  	model() {
 
-    /* poll every 2000 ms to see if any of the data changed! */
+    /* poll every 3000 ms to see if any of the data changed! */
 		var self = this;
-		(function poll() {
-			setTimeout(function() {
-				self.refresh();
-			}, 2000);
-		}) ();
+
+      Ember.run.later((function() {
+        self.refresh();
+      }), 3000);
 
     /* returning all the needed data into one model with 3 different parts */
     return Ember.RSVP.hash({

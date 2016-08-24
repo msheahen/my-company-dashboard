@@ -1,12 +1,12 @@
-submissionDate,customerName,customerEmail,description,status,closeDate,employeeName
-2016-04-23,John Doe,john.doe@funco.com,Can't seem to log into email,closed,2016-05-23,Anna Forte
-2016-04-02,Jane Doe,jane.doe@funco.com,Problem with account login,open,,Anthony Bergess
-2016-06-14,Fred Rogers,fred.rogers@funco.com,Never received refund check,open,,Anthony Bergess
-2016-08-07,Susan Rogers,steve.rogers@gmail.com,Cancelling service,open,,Anna Forte
-2016-05-23,Mary Sheahen,mary.sheahen@udacity.com,Out of ketchup in the break room,open,,Anna Forte
-2016-05-17,Hilary Clinton,hilary.clinton@democrats.gov,Problem signing in,open,,Bethany Perogi
-2016-01-08,Donald Trump,donald.trump@republicans.gov,Did not receive onboarding,closed,2016-02-23,Anthony Bergess
-2016-08-01,Bernie Sanders,bernie.sanders@socialism.gov,can't find keys,open,,Anthony Bergess
-2016-06-23,Snoop Dogg,snoop.dogg@funco.com,Need new servers,closed,2016-07-23,Bethany Perogi
-2016-02-27,Dr. Dre,dr.dre@funco.com,Need new refrigerators,open,,Anthony Bergess
-2016-08-27,Dr. Dre,dr.dre@funco.com,Can't think of a good description,open,,Anthony Bergess
+submissionTime,customerName,customerEmail,description,status,closeTime,employeeName
+2016-04-23 00:00:00,John Doe,john.doe@funco.com,Can't seem to log into email,closed,2016-05-23 23:11:45,Anna Forte
+2016-04-02 12:03:04,Jane Doe,jane.doe@funco.com,Problem with account login,open,,Anthony Bergess
+2016-06-14 4:22:12,Fred Rogers,fred.rogers@funco.com,Never received refund check,open,,Anthony Bergess
+2016-08-07 16:23:34,Susan Rogers,steve.rogers@gmail.com,Cancelling service,open,,Anna Forte
+2016-05-23 17:23:38,Mary Sheahen,mary.sheahen@udacity.com,Out of ketchup in the break room,open,,Anna Forte
+2016-05-17 11:11:28,Hilary Clinton,hilary.clinton@democrats.gov,Problem signing in,open,,Bethany Perogi
+2016-01-08 08:12:44,Donald Trump,donald.trump@republicans.gov,Did not receive onboarding,closed,2016-02-23 18:12:42,Anthony Bergess
+2016-08-01 09:23:11,Bernie Sanders,bernie.sanders@socialism.gov,can't find keys,open,,Anthony Bergess
+2016-06-23 09:32:14,Snoop Dogg,snoop.dogg@funco.com,Need new servers,closed,2016-07-23 11:12:24,Bethany Perogi
+2016-02-27 10:14:25,Dr. Dre,dr.dre@funco.com,Need new refrigerators,open,,Anthony Bergess
+2016-08-27 11:15:35,Dr. Dre,dr.dre@funco.com,Can't think of a good description,open,,Anthony Bergess

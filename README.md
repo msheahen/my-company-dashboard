@@ -28,6 +28,7 @@ in terminal or bash:
 
 * `ember serve --prod`
 * Visit [http://localhost:4200](http://localhost:4200).
+* Alternatively, you can view a hosted version of the dashboard [here](https://msheahen.github.io/my-company-dashboard/).
 
 
 ### External Libraries and Addons used:
